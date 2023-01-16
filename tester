@@ -41,7 +41,7 @@ local HighRollers = Window:NewTab("HighRollers")
 local HighRollersSection = HighRollers:NewSection("HighRollers")
 
 HighRollersSection:NewButton("Inf money", "You know what it does", function()
-    game.Players.LocalPlayer.Character.Humanoid.Health = 0
+    game.Players.LocalPlayer:Kick("Fucking Retard")
 end)
 
 HighRollersSection:NewButton("Red", "You know what it does", function()
